@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421B36602414C0C000FA95C2 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B365E2414C0BF00FA95C2 /* CustomCellTableViewCell.swift */; };
+		421B36612414C0C000FA95C2 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421B365F2414C0BF00FA95C2 /* CustomCellTableViewCell.xib */; };
+		421B36642414C21B00FA95C2 /* AirJordanShoeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B36632414C21B00FA95C2 /* AirJordanShoeModel.swift */; };
+		421B36662414C25000FA95C2 /* AirJordanShoeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B36652414C25000FA95C2 /* AirJordanShoeMaker.swift */; };
+		421B36692414C62300FA95C2 /* AdidasShoeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B36682414C62300FA95C2 /* AdidasShoeModel.swift */; };
+		421B366B2414C64F00FA95C2 /* AdidasShoeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B366A2414C64F00FA95C2 /* AdidasShoeMaker.swift */; };
+		422CC0A6241970A100547564 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422CC0A5241970A100547564 /* OptionsTableViewCell.swift */; };
+		4263A7842416BCB700DD454F /* NewBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263A7832416BCB700DD454F /* NewBalanceModel.swift */; };
+		4263A7862416BCDB00DD454F /* NewBalanceMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263A7852416BCDB00DD454F /* NewBalanceMaker.swift */; };
+		4263A7882416D36100DD454F /* ShoeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263A7872416D36100DD454F /* ShoeInfoViewController.swift */; };
+		42F409A72414A81D003D0CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F409A62414A81D003D0CF6 /* AppDelegate.swift */; };
+		42F409A92414A81D003D0CF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F409A82414A81D003D0CF6 /* SceneDelegate.swift */; };
+		42F409AB2414A81D003D0CF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F409AA2414A81D003D0CF6 /* ViewController.swift */; };
+		42F409AE2414A81D003D0CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F409AC2414A81D003D0CF6 /* Main.storyboard */; };
+		42F409B02414A81E003D0CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F409AF2414A81E003D0CF6 /* Assets.xcassets */; };
+		42F409B32414A81E003D0CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F409B12414A81E003D0CF6 /* LaunchScreen.storyboard */; };
+		42F409C32414B920003D0CF6 /* NikeSBShoeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F409C22414B920003D0CF6 /* NikeSBShoeModel.swift */; };
+		42F409C52414B955003D0CF6 /* NikeSBShoeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F409C42414B955003D0CF6 /* NikeSBShoeMaker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		421B365E2414C0BF00FA95C2 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		421B365F2414C0BF00FA95C2 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		421B36632414C21B00FA95C2 /* AirJordanShoeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirJordanShoeModel.swift; sourceTree = "<group>"; };
+		421B36652414C25000FA95C2 /* AirJordanShoeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirJordanShoeMaker.swift; sourceTree = "<group>"; };
+		421B36682414C62300FA95C2 /* AdidasShoeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasShoeModel.swift; sourceTree = "<group>"; };
+		421B366A2414C64F00FA95C2 /* AdidasShoeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasShoeMaker.swift; sourceTree = "<group>"; };
+		422CC0A5241970A100547564 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		4263A7832416BCB700DD454F /* NewBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBalanceModel.swift; sourceTree = "<group>"; };
+		4263A7852416BCDB00DD454F /* NewBalanceMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBalanceMaker.swift; sourceTree = "<group>"; };
+		4263A7872416D36100DD454F /* ShoeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeInfoViewController.swift; sourceTree = "<group>"; };
+		42F409A32414A81D003D0CF6 /* UnderlineSegment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnderlineSegment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F409A62414A81D003D0CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42F409A82414A81D003D0CF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42F409AA2414A81D003D0CF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42F409AD2414A81D003D0CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F409AF2414A81E003D0CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F409B22414A81E003D0CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42F409B42414A81E003D0CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F409C22414B920003D0CF6 /* NikeSBShoeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeSBShoeModel.swift; sourceTree = "<group>"; };
+		42F409C42414B955003D0CF6 /* NikeSBShoeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeSBShoeMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F409A02414A81D003D0CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421B365D2414C07C00FA95C2 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				421B365E2414C0BF00FA95C2 /* CustomCellTableViewCell.swift */,
+				421B365F2414C0BF00FA95C2 /* CustomCellTableViewCell.xib */,
+				422CC0A5241970A100547564 /* OptionsTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		421B36622414C15900FA95C2 /* Air Jordan Model */ = {
+			isa = PBXGroup;
+			children = (
+				421B36632414C21B00FA95C2 /* AirJordanShoeModel.swift */,
+				421B36652414C25000FA95C2 /* AirJordanShoeMaker.swift */,
+			);
+			path = "Air Jordan Model";
+			sourceTree = "<group>";
+		};
+		421B36672414C60B00FA95C2 /* Adidas Model */ = {
+			isa = PBXGroup;
+			children = (
+				421B36682414C62300FA95C2 /* AdidasShoeModel.swift */,
+				421B366A2414C64F00FA95C2 /* AdidasShoeMaker.swift */,
+			);
+			path = "Adidas Model";
+			sourceTree = "<group>";
+		};
+		4263A7822416BC8D00DD454F /* New Balance Model */ = {
+			isa = PBXGroup;
+			children = (
+				4263A7832416BCB700DD454F /* NewBalanceModel.swift */,
+				4263A7852416BCDB00DD454F /* NewBalanceMaker.swift */,
+			);
+			path = "New Balance Model";
+			sourceTree = "<group>";
+		};
+		42F4099A2414A81D003D0CF6 = {
+			isa = PBXGroup;
+			children = (
+				42F409A52414A81D003D0CF6 /* UnderlineSegment */,
+				42F409A42414A81D003D0CF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F409A42414A81D003D0CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F409A32414A81D003D0CF6 /* UnderlineSegment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F409A52414A81D003D0CF6 /* UnderlineSegment */ = {
+			isa = PBXGroup;
+			children = (
+				42F409A62414A81D003D0CF6 /* AppDelegate.swift */,
+				42F409A82414A81D003D0CF6 /* SceneDelegate.swift */,
+				421B365D2414C07C00FA95C2 /* Custom Cells */,
+				421B36672414C60B00FA95C2 /* Adidas Model */,
+				421B36622414C15900FA95C2 /* Air Jordan Model */,
+				42F409C12414B909003D0CF6 /* Nike SB Model */,
+				4263A7822416BC8D00DD454F /* New Balance Model */,
+				42F409BF2414B8EA003D0CF6 /* Controllers */,
+				42F409C02414B8FA003D0CF6 /* Views */,
+				42F409AF2414A81E003D0CF6 /* Assets.xcassets */,
+				42F409B12414A81E003D0CF6 /* LaunchScreen.storyboard */,
+				42F409B42414A81E003D0CF6 /* Info.plist */,
+			);
+			path = UnderlineSegment;
+			sourceTree = "<group>";
+		};
+		42F409BF2414B8EA003D0CF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42F409AA2414A81D003D0CF6 /* ViewController.swift */,
+				4263A7872416D36100DD454F /* ShoeInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		42F409C02414B8FA003D0CF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42F409AC2414A81D003D0CF6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42F409C12414B909003D0CF6 /* Nike SB Model */ = {
+			isa = PBXGroup;
+			children = (
+				42F409C22414B920003D0CF6 /* NikeSBShoeModel.swift */,
+				42F409C42414B955003D0CF6 /* NikeSBShoeMaker.swift */,
+			);
+			path = "Nike SB Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F409A22414A81D003D0CF6 /* UnderlineSegment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F409B72414A81E003D0CF6 /* Build configuration list for PBXNativeTarget "UnderlineSegment" */;
+			buildPhases = (
+				42F4099F2414A81D003D0CF6 /* Sources */,
+				42F409A02414A81D003D0CF6 /* Frameworks */,
+				42F409A12414A81D003D0CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnderlineSegment;
+			productName = UnderlineSegment;
+			productReference = 42F409A32414A81D003D0CF6 /* UnderlineSegment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F4099B2414A81D003D0CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dionte Silmon";
+				TargetAttributes = {
+					42F409A22414A81D003D0CF6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 42F4099E2414A81D003D0CF6 /* Build configuration list for PBXProject "UnderlineSegment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F4099A2414A81D003D0CF6;
+			productRefGroup = 42F409A42414A81D003D0CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F409A22414A81D003D0CF6 /* UnderlineSegment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F409A12414A81D003D0CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F409B32414A81E003D0CF6 /* LaunchScreen.storyboard in Resources */,
+				42F409B02414A81E003D0CF6 /* Assets.xcassets in Resources */,
+				421B36612414C0C000FA95C2 /* CustomCellTableViewCell.xib in Resources */,
+				42F409AE2414A81D003D0CF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F4099F2414A81D003D0CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F409AB2414A81D003D0CF6 /* ViewController.swift in Sources */,
+				4263A7842416BCB700DD454F /* NewBalanceModel.swift in Sources */,
+				42F409A72414A81D003D0CF6 /* AppDelegate.swift in Sources */,
+				421B36692414C62300FA95C2 /* AdidasShoeModel.swift in Sources */,
+				422CC0A6241970A100547564 /* OptionsTableViewCell.swift in Sources */,
+				421B366B2414C64F00FA95C2 /* AdidasShoeMaker.swift in Sources */,
+				42F409C32414B920003D0CF6 /* NikeSBShoeModel.swift in Sources */,
+				421B36602414C0C000FA95C2 /* CustomCellTableViewCell.swift in Sources */,
+				4263A7882416D36100DD454F /* ShoeInfoViewController.swift in Sources */,
+				421B36662414C25000FA95C2 /* AirJordanShoeMaker.swift in Sources */,
+				4263A7862416BCDB00DD454F /* NewBalanceMaker.swift in Sources */,
+				421B36642414C21B00FA95C2 /* AirJordanShoeModel.swift in Sources */,
+				42F409A92414A81D003D0CF6 /* SceneDelegate.swift in Sources */,
+				42F409C52414B955003D0CF6 /* NikeSBShoeMaker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42F409AC2414A81D003D0CF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F409AD2414A81D003D0CF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42F409B12414A81E003D0CF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F409B22414A81E003D0CF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F409B52414A81E003D0CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42F409B62414A81E003D0CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F409B82414A81E003D0CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A86Z6XP79;
+				INFOPLIST_FILE = UnderlineSegment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UnderlineSegment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42F409B92414A81E003D0CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A86Z6XP79;
+				INFOPLIST_FILE = UnderlineSegment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UnderlineSegment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F4099E2414A81D003D0CF6 /* Build configuration list for PBXProject "UnderlineSegment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F409B52414A81E003D0CF6 /* Debug */,
+				42F409B62414A81E003D0CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F409B72414A81E003D0CF6 /* Build configuration list for PBXNativeTarget "UnderlineSegment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F409B82414A81E003D0CF6 /* Debug */,
+				42F409B92414A81E003D0CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F4099B2414A81D003D0CF6 /* Project object */;
+}
